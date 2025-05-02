@@ -1,0 +1,14 @@
+GET http://localhost:4000/todos
+
+###
+
+DELETE http://localhost:4000/todos/3
+
+###
+
+POST http://localhost:4000/todos
+Content-Type: application/json
+
+{ 
+    "title" : "Learn JavaScript" 
+}
